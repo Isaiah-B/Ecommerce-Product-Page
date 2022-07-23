@@ -13,8 +13,8 @@ This page should:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://www.frontendmentor.io/solutions/responsive-ecommerce-product-page-using-vanilla-jscss-7z2So_nsY_)
+- [Live Site](https://tourmaline-muffin-c2d27b.netlify.app)
 
 ### Built with
 
