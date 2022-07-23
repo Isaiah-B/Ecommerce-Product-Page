@@ -43,7 +43,7 @@ body {
   color: hsl(220, 13%, 13%);
 }
 
-*:focus {
+*:focus-visible {
   outline: none;
   box-shadow: 0 0 0 0.5rem hsla(26, 100%, 55%, 0.6);
 }
