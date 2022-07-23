@@ -158,7 +158,7 @@ body {
   height: 1.8rem;
 }
 
-.icon-mobile-nav[name='close-menu'] {
+.icon-mobile-nav[id='close-menu'] {
   display: none;
 }
 

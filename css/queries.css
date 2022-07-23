@@ -83,6 +83,7 @@
     display: block;
     opacity: 1;
     transform: translateX(0%);
+    visibility: visible;
   }
   
   .main-nav-list {
@@ -93,7 +94,7 @@
   .nav-open .main-nav-wrapper::before {
     content: '';
     position: fixed;
-    z-index: 9999;
+    z-index: 8888;
     left: 0;
     top: 0;
     right: 0;
@@ -106,11 +107,11 @@
     z-index: 10000;
   }
 
-  .nav-open .icon-mobile-nav[name='open-menu'] {
+  .nav-open .icon-mobile-nav[id='open-menu'] {
     display: none;
   }
 
-  .nav-open .icon-mobile-nav[name='close-menu'] {
+  .nav-open .icon-mobile-nav[id='close-menu'] {
     display: block;
   }
 

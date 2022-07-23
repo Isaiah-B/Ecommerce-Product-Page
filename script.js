@@ -229,8 +229,8 @@ addToCartBtn.addEventListener('click', () => {
 // MOBILE NAV
 //*************************************************************/
 const header = document.querySelector('.header');
-const openNavBtn = document.getElementsByName('open-menu')[0];
-const closeNavBtn = document.getElementsByName('close-menu')[0];
+const openNavBtn = document.getElementById('open-menu');
+const closeNavBtn = document.getElementById('close-menu');
 
 openNavBtn.addEventListener('click', () => {
   header.classList.add('nav-open');
